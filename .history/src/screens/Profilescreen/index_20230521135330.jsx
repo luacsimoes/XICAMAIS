@@ -1,0 +1,21 @@
+import React from "react";
+import logo from "./images/logo.png";
+import icon from "./images/avatar-xica.png";
+import { Container, Sidebar, Portal, Content, LogoImage, IconImage, Name } from "./styles";
+
+function Profilescreen() {
+  return (
+    <Container>
+    <Content>
+      <Sidebar>
+      <LogoImage src={logo} alt="prof" />
+      <IconImage src={icon} alt="prof" />
+      <Name>Dandara Manicongo</Name>
+      </Sidebar>
+      <Portal><h1>hello</h1></Portal>
+      </Content>
+    </Container>
+  );
+}
+
+export default Profilescreen;
